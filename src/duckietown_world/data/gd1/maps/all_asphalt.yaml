@@ -1,15 +1,11 @@
-# 1x1 asphalt
-tiles:
-  - [asphalt]
-tile_size: 0.297
 objects:
   tag300:
     kind: floor_tag
     pose:
       ~SE2Transform:
         p:
-          - 0.069
-          - 0.139
+        - 0.069
+        - 0.156
         theta_deg: 0
     tag:
       ~TagInstance:
@@ -21,8 +17,8 @@ objects:
     pose:
       ~SE2Transform:
         p:
-          - 0.149
-          - 0.139
+        - 0.149
+        - 0.156
         theta_deg: 0
     tag:
       ~TagInstance:
@@ -34,8 +30,8 @@ objects:
     pose:
       ~SE2Transform:
         p:
-          - 0.229
-          - 0.139
+        - 0.229
+        - 0.156
         theta_deg: 0
     tag:
       ~TagInstance:
@@ -47,8 +43,8 @@ objects:
     pose:
       ~SE2Transform:
         p:
-          - 0.069
-          - 0.053
+        - 0.069
+        - 0.068
         theta_deg: 0
     tag:
       ~TagInstance:
@@ -60,8 +56,8 @@ objects:
     pose:
       ~SE2Transform:
         p:
-          - 0.149
-          - 0.053
+        - 0.149
+        - 0.068
         theta_deg: 0
     tag:
       ~TagInstance:
@@ -73,11 +69,14 @@ objects:
     pose:
       ~SE2Transform:
         p:
-          - 0.229
-          - 0.053
+        - 0.229
+        - 0.068
         theta_deg: 0
     tag:
       ~TagInstance:
         family: 36h11
         size: 0.065
         tag_id: 305
+tile_size: 0.297
+tiles:
+- - asphalt
